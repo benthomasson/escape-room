@@ -49,7 +49,7 @@ from smolagents.utils import (
 from smolagents.agent_types import AgentType
 from smolagents.default_tools import TOOL_MAPPING, FinalAnswerTool
 from smolagents.e2b_executor import E2BExecutor
-from ftl_agent.local_python_executor import (
+from escape_room.local_python_executor import (
     BASE_BUILTIN_MODULES,
     LocalPythonInterpreter,
     fix_final_answer_code,

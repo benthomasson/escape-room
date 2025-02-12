@@ -6,13 +6,13 @@ dependencies = [
 ]
 
 [tool.setuptools]
-packages = ["ftl_agent"]
+packages = ["escape_room"]
 
 [build-system]
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project.scripts]
-ftl-agent = "ftl_agent.cli:main"
+ftl-agent = "escape_room.cli:main"
 
 

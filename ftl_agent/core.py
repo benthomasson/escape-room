@@ -1,6 +1,6 @@
-from ftl_agent.agents import CodeAgent
+from escape_room.agents import CodeAgent
 from smolagents import LiteLLMModel
-from ftl_agent.prompts import CODE_SYSTEM_PROMPT
+from escape_room.prompts import CODE_SYSTEM_PROMPT
 
 
 def create_model(model_id, context=8192):
