@@ -1,6 +1,6 @@
 
-SOLVE_PROBLEM = """ Given this system design and the problem, solve it.
-    System Design: {system_design}
+SOLVE_PROBLEM = """ Given this situation and a problem, solve it.
+    Situation: {situation}
     Problem: {problem}
 """
 
