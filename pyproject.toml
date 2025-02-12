@@ -1,5 +1,5 @@
 [project]
-name = "ftl-agent"
+name = "escape-room"
 version = "0.1.0"
 dependencies = [
     "smolagents",
@@ -13,6 +13,6 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project.scripts]
-ftl-agent = "escape_room.cli:main"
+escape-room = "escape_room.cli:main"
 
 
